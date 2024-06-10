@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .responsive-title {
+    font-size: 18px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+  
+  
+  }
+  
+}
+
+@media (min-width: 576px) {
+  .responsive-title {
+    font-size: 20px; /* Tamaño de fuente para pantallas medianas */
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-title {
+    font-size: 22px; /* Tamaño de fuente para pantallas grandes */
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-title {
+    font-size: 24px; /* Tamaño de fuente para pantallas extra grandes */
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-title {
+    font-size: 26px; /* Tamaño de fuente para pantallas extra grandes */
+  }
+}
+
+/* styles.css */
+.responsive-row {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .responsive-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .responsive-row .ant-col:first-child {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .responsive-row .ant-col:last-child {
+    flex: 0 0 auto;
+  }
+}
+
+.custom-collapse .ant-collapse-content-box {
+  padding: 0;
+}
+.ant-table-wrapper {
+  width: 100%;
+}
+
+
+.custom-collapse .ant-collapse-content-box {
+  padding: 0;
+}
+.ant-table-wrapper {
+  width: 100%;
+}
+
+
+/* styles.css */
+.deudor-info {
+  font-size: 14px; /* Tamaño de fuente por defecto */
+}
+
+
+@media (max-width: 900px) {
+  .deudor-info {
+    font-size: 10px; /* Tamaño de fuente para pantallas más pequeñas */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .deudor-info {
+    font-size: 12px; /* Tamaño de fuente para pantallas más pequeñas */
+  }
+}
+
+
+@media (max-width: 500px) {
+  .deudor-info {
+    font-size: 10px; /* Tamaño de fuente para pantallas más pequeñas */
+  }
+  .deudor-info-botton{
+    width: 60px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 400px) {
+  .deudor-info {
+    font-size: 8px; /* Tamaño de fuente para pantallas más pequeñas */
+  }
+}
