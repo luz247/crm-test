@@ -1,0 +1,28 @@
+/* Aplica estos estilos CSS a tu tabla de agenda */
+.rbc-agenda-table {
+    width: 100%; 
+    table-layout: fixed; /* Esto asegura que las columnas respeten los anchos */
+  }
+  
+  .rbc-agenda-table th,
+  .rbc-agenda-table td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .rbc-agenda-table th:nth-child(1),
+  .rbc-agenda-table td:nth-child(1) {
+    width: 80px; /* Ajusta según tu diseño */
+  }
+  
+  .rbc-agenda-table th:nth-child(2),
+  .rbc-agenda-table td:nth-child(2) {
+    width: 60px; /* Ajusta según tu diseño */
+  }
+  
+  .rbc-agenda-table th:nth-child(3),
+  .rbc-agenda-table td:nth-child(3) {
+    width: auto; /* Ocupa el espacio restante */
+  }
+  
